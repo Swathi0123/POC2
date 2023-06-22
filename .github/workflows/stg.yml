@@ -1,5 +1,4 @@
 name: 'Terraform - Staging'
-
 on:
   push:
     branches:
