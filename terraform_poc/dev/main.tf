@@ -1,6 +1,7 @@
 module "vpc" {
   source = "../modules/vpc"
 
+
   cidr_block        = var.cidr_block
   cidr_block_subnet = var.cidr_block_subnet
   name              = var.name
